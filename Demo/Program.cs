@@ -60,8 +60,8 @@ namespace Demo
 
             app.MapControllerRoute(
                name: "default",
-               pattern: "/{Controller = Home}/{Action = Index}",
-               defaults: new { controller = "Home", Action = "Index" }
+               pattern: "/{Controller = Home}/{Action = Index}"
+               //defaults: new { controller = "Home", Action = "Index" }
             );
 
             app.Run();
